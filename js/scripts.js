@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(){
         var username = document.getElementById("username").value;
         var password = document.getElementById("password").value;
 
-        if(username =="admin" && password == "1234"){
+        if(username === "admin" && password === "1234"){
             window.location.href = "dashboard.html";
         }else{
             alert("Usuario o contraseña incorrectos");
@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
     var linkEstudiantes = document.getElementById("linkEstudiantes");
     var linkAsignaturas = document.getElementById("linkAsignaturas");
-    alert("hola");
     var contenedorEstudiantes = document.getElementById("contenedorEstudiantes");
     var contenedorAsignaturas = document.getElementById("contenedorAsignaturas");
 
