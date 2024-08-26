@@ -26,11 +26,12 @@ document.addEventListener("DOMContentLoaded", function(){
 
     var linkEstudiantes = document.getElementById("linkEstudiantes");
     var linkAsignaturas = document.getElementById("linkAsignaturas");
-
+    alert("hola");
     var contenedorEstudiantes = document.getElementById("contenedorEstudiantes");
     var contenedorAsignaturas = document.getElementById("contenedorAsignaturas");
 
     linkEstudiantes.addEventListener("click", function(event){
+        
         event.preventDefault();
         contenedorEstudiantes.classList.add("active");
         contenedorAsignaturas.classList.remove("active");
